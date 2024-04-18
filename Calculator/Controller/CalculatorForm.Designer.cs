@@ -164,6 +164,7 @@
             // 
             // NumberKeyPoint
             // 
+            this.NumberKeyPoint.Enabled = false;
             this.NumberKeyPoint.Font = new System.Drawing.Font("MS UI Gothic", 18F);
             this.NumberKeyPoint.Location = new System.Drawing.Point(174, 365);
             this.NumberKeyPoint.Name = "NumberKeyPoint";
@@ -175,6 +176,7 @@
             // 
             // NumberKeyPlusMinus
             // 
+            this.NumberKeyPlusMinus.Enabled = false;
             this.NumberKeyPlusMinus.Font = new System.Drawing.Font("MS UI Gothic", 18F);
             this.NumberKeyPlusMinus.Location = new System.Drawing.Point(12, 365);
             this.NumberKeyPlusMinus.Name = "NumberKeyPlusMinus";
@@ -241,6 +243,7 @@
             // 
             // FunctionKeyBackSpace
             // 
+            this.FunctionKeyBackSpace.Enabled = false;
             this.FunctionKeyBackSpace.Font = new System.Drawing.Font("MS UI Gothic", 18F);
             this.FunctionKeyBackSpace.Location = new System.Drawing.Point(174, 109);
             this.FunctionKeyBackSpace.Name = "FunctionKeyBackSpace";
@@ -252,6 +255,7 @@
             // 
             // FunctionKeyClear
             // 
+            this.FunctionKeyClear.Enabled = false;
             this.FunctionKeyClear.Font = new System.Drawing.Font("MS UI Gothic", 18F);
             this.FunctionKeyClear.Location = new System.Drawing.Point(93, 109);
             this.FunctionKeyClear.Name = "FunctionKeyClear";
@@ -263,6 +267,7 @@
             // 
             // FunctionKeyClearEntry
             // 
+            this.FunctionKeyClearEntry.Enabled = false;
             this.FunctionKeyClearEntry.Font = new System.Drawing.Font("MS UI Gothic", 18F);
             this.FunctionKeyClearEntry.Location = new System.Drawing.Point(12, 109);
             this.FunctionKeyClearEntry.Name = "FunctionKeyClearEntry";
