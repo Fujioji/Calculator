@@ -16,6 +16,7 @@ namespace Calculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            log4net.Config.XmlConfigurator.Configure(new System.IO.FileInfo("log4net.config"));
             Application.Run(new Form1());
         }
     }
