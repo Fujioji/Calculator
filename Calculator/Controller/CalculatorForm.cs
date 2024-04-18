@@ -269,6 +269,7 @@ namespace Calculator
         private void numberClick(object sender)
         {
             // TODO:数字クリック時のイベントハンドラーをこのメソッドに集約
+            // TODO:バグ修正 計算後に数字を押すと末尾に追加されてしまう
 
             var buttonText = ((Button)sender).Text;
             var buttonName = ((Button)sender).Name;
